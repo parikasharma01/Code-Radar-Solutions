@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
     float n;
-    printf("Enter your number")
-    scanf("%f,&n");
-    printf("n is float number:%f","n");
+    printf("Enter your number\n");
+    scanf("&f",&n)
     return 0;
+    
 
 }
 
