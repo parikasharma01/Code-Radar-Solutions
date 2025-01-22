@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char n[],h[];
+    char n[50],h[50];
     int a;
     scanf("%s %s %d",&n,&h,&a);
     printf("Name: %s\n",n);
