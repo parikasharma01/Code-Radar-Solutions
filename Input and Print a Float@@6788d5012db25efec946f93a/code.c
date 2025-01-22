@@ -2,7 +2,7 @@
 int main(){
     float n;
     scanf("%f",&n);
-    printf("n")
+    printf("Print the entered float:%d",sum);
     return 0;
     
 
