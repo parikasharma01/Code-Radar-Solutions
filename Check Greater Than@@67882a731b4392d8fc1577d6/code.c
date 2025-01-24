@@ -3,12 +3,12 @@ int main(){
     int a,b;
     scanf("%d %d," &a,&b);
     if(a>b){
-        pritnf("True");
+        printf("True");
     
 
     }
     else{
-        pritnf("False");
+        printf("False");
     }
 
     return 0;
