@@ -5,12 +5,16 @@ int main(){
     if(a>0){
         pritnf("Positive");
     }
-    elif(a<0){
+    else if(a<0){
         printf("Negative");
     }
     else{
         printf("Zero")
     }
+    return 0;
+}
+
+
 
 
 
