@@ -12,8 +12,5 @@ int main(){
         printf("Isosceles");    
     }
 
-    
-
-
     return 0;
 }
