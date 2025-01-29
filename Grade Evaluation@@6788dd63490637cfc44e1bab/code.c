@@ -6,7 +6,7 @@ int main(){
         printf("Excellent");
     }
     else if(a==B){
-        pritnf("Good");
+        printf("Good");
     }
     else if(a==C){
         printf("Average");
