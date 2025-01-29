@@ -2,14 +2,14 @@
 int mian(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a == b){
-        printf("Equal");
+    if(a==b){
+        printf("First");
     }
-    else if(b > a){
+    else if(b>a){
         printf("Second");
     }
     else{
-        printf("First");
+        printf("Equal");
     }
 
     return 0;
