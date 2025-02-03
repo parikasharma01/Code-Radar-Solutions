@@ -21,13 +21,13 @@ int main(){
         printf("31");
     }
     else if(a==7){
-        prinftf("30");
+        printf("30");
     }
     else if(a==8){
         printf("31");
     }
     else if(a==9){
-        pritnf("30");
+        printf("30");
     }
     else if(a==10){
         printf("31");
