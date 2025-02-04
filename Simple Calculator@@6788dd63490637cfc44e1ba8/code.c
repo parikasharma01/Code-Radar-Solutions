@@ -1,17 +1,18 @@
 #include <stdio.h>
 int main(){
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    if(c==addition){
+    int a,b;
+    char c;
+    scanf("%d %d %c",&a,&b,&c);
+    if(c=='+'){
         printf("a+b");
     }
-    else if(c==subtraction){
+    else if(c=="-"){
         printf("a-b");
     }
-    else if(c==multiplication){
+    else if(c=="*"){
         printf("a*b");
     }
-    else if(c==division){
+    else if(c=="/"){
         printf("a/b");
     }
     return 0;
