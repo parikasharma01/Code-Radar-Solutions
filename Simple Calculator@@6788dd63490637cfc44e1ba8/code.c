@@ -14,7 +14,5 @@ int main(){
     else if(c==division){
         printf("a/b");
     }
-
-
     return 0;
 }
