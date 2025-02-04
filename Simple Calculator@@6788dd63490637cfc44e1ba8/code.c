@@ -12,7 +12,7 @@ int main(){
         printf("a*b");
     }
     else if(c==division){
-        printf("a/b")
+        printf("a/b");
     }
 
 
