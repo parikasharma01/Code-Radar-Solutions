@@ -16,8 +16,9 @@ int main(){
           if(b==0){
             printf("error");
           }
-        printf("%d",a/b);
+          else{
+            printf("%d",a/b);
+          }
     }
     return 0;
 }
-
