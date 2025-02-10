@@ -4,10 +4,16 @@ int main(){
     scanf("%d",&a);
     if(a<=1){
         printf("Not Prime");
+        return 0;
     }
-    for (int i =2; i>=(n*0.5);i++){
-        printf("Prime");
+    for (int i =2; i<=(a*0.5);i++){
+        if (a%i==0){
+            printf("Not Prime");
+            return 0;
+        }
+        
     }
+    printf("Prime");
 
     return 0;
 }
