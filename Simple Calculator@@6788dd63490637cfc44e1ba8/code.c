@@ -1,24 +1,26 @@
 #include<stdio.h>
 int main(){
-    int a,b ;
-    char c;
-    scanf("%d %d %c",&a,&b,&c);
-    if(c == '+' ){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(addition){
         printf("%d",a+b);
     }
-    else if(c == '-'){
+    else if(subtraction){
         printf("%d",a-b);
     }
-    else if(c == '*'){
+    else if(multiplication){
         printf("%d",a*b);
     }
-    else if(c == '/'){
-          if(b==0){
+    else if(division){
+        if(b==0){
             printf("error");
-          }
-          else{
+        }
+        else{
             printf("%d",a/b);
-          }
+        }
+    }
+    else{
+        printf("Error")
     }
     return 0;
 }
