@@ -1,13 +1,12 @@
-#include <stdio.h>
+#include<stdio,h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    if(a%5==0)&&(a%11==0){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a%5==0 && b%5==0){
         printf("Divisible");
     }
     else{
         printf("Not Divisible");
     }
-
     return 0;
 }
