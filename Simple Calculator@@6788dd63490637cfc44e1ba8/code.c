@@ -18,6 +18,9 @@ int main(){
         else{
             printf("%d",a/b);
         }
+    else{
+        printf("nothing")
+    }    
     }    
     return 0;
 }
