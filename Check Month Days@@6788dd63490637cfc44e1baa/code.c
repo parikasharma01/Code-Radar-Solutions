@@ -6,7 +6,7 @@ int main(){
         printf("31");
     }
     else if(a==2){
-        printf("28");
+        printf("28 || 29");
     }
     else if(a==3){
         printf("31");
