@@ -18,7 +18,7 @@ int main(){
         printf("F");
    }
    else{
-    printf("None")
+    printf("None");
    }
     return 0;
 }
